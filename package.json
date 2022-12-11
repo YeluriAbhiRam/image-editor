@@ -1,0 +1,86 @@
+{
+  "name": "image-editor",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "react": "16.8.3",
+    "react-dom": "16.8.3",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4",
+    "@copart/core-components": "1.4.61",
+    "@copart/front-end-utils": "1.0.2",
+    "@copart/notes-component": "^1.0.9-alpha.4",
+    "@copart/ops-list-page": "1.1.7",
+    "@copart/ops-tool-kit": "1.6.0",
+    "@copart/reference-data": "0.0.16",
+    "@xstate/immer": "^0.1.0",
+    "@xstate/react": "^0.7.0",
+    "bimap": "0.0.15",
+    "classnames": "^2.2.6",
+    "connected-react-router": "^4.5.0",
+    "dotenv": "5.0.1",
+    "flow-typed": "^2.5.1",
+    "form-metadata-2": "^1.0.1",
+    "history": "^4.4.1",
+    "html-react-parser": "^0.6.3",
+    "immer": "5.1.0",
+    "moment": "2.24.0",
+    "moment-timezone": "^0.5.21",
+    "mui-row-select-table": "^0.3.3",
+    "object-mapper": "^5.0.0",
+    "office-ui-fabric-react": "7.121.1",
+    "query-string": "6.2.0",
+    "ramda": "^0.26.0",
+    "react-draggable": "^2.2.6",
+    "react-hot-loader": "^4.3.4",
+    "react-hotkeys": "^2.0.0",
+    "react-image-comparison-slider": "^1.8.4",
+    "react-joyride": "^1.11.4",
+    "react-preload": "^0.6.0",
+    "react-redux": "^4.4.9",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2",
+    "react-tooltip": "^3.6.1",
+    "react-transition-group": "^2.5.3",
+    "redux": "^3.6.0",
+    "redux-actions": "^2.6.4",
+    "redux-saga": "1.0.5",
+    "redux-thunk": "^2.3.0",
+    "render-if": "^0.1.1",
+    "reselect": "^4.0.0",
+    "server": "^1.0.18",
+    "socket.io-client": "^2.2.0",
+    "styled-components": "^5.1.0",
+    "tui-image-editor": "https://github.com/ravikirancopart/tui.image-editor/raw/master/ravikirancopart-tui.image-editor-apps-image-editor.tgz",
+    "uuid": "^3.3.2",
+    "xlsx": "^0.16.1",
+    "xstate": "^4.15.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

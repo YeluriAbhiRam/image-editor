@@ -1,0 +1,133 @@
+:root {
+  --custom-opacity: 1;
+}
+
+.ImageEditorDialog {
+  width: auto;
+  max-height: 800px;
+}
+
+.ImageEditorDialogFlex {
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  position: relative;
+  overflow: auto;
+  display: flex;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.EditingDisabled .ImageIcons {
+  color: gray;
+}
+
+.ImageEditorContainer > div,
+.ImageEditorContainer > img {
+  height: 650px;
+  width: 866px;
+  flex: 90%;
+  text-align: center;
+  justify-items: center;
+  position: relative;
+}
+
+.ImageEditorControls [class*='__Button-Button'] {
+  display: flex !important;
+  width: 100%;
+}
+.ToggleButton {
+  right: 0px;
+  padding: 10px;
+}
+
+.ToggleButton [class*='ms-Toggle-innerContainer'] {
+  display: flex !important;
+  flex-direction: row-reverse !important;
+}
+
+.ImageDecisions {
+  position: absolute;
+  padding-top: 8px;
+}
+
+.ImageDecisionsButton {
+  padding: 7px;
+}
+
+.ImageDecisionsButton button {
+  width: 162px;
+}
+.ImageIconsSection {
+  display: flex;
+  background: #dedede;
+  height: 45px;
+}
+
+.ImageIcons {
+  text-align: center;
+  vertical-align: middle;
+  color: #333;
+  font-size: 14px;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.ActionSelected {
+  background-color: #979797;
+}
+
+.ImageIconLabel {
+  margin: 10px;
+}
+
+.ImageActions {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.rightButtons {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.ImageIcons:hover {
+  color: black;
+}
+
+.ImageTypeHeading {
+  background-color: #0000009c;
+  color: white;
+  height: auto !important;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.HeadingStyles {
+  margin-top: 0px !important;
+  position: absolute;
+  top: 3px;
+}
+
+.ImageEditorContainer [class*='tui-image-editor-canvas-container'] {
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  opacity: var(--custom-opacity);
+  -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=0)';
+  filter: alpha(opacity=1);
+}
+
+.rightButtons {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+}
